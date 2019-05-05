@@ -14,13 +14,13 @@ Example form HTML:
 ```html
 <form method="post" action="..." data-live-validator-form="user-add">
     <div data-live-validator="firstname" data-live-validator-rules="min_char:2|alpha">
-        <input type="text" name="firstname" class="form-control">
+        <input type="text" name="firstname">
     </div>
     <div data-live-validator="lastname" data-live-validator-rules="min_char:2|alpha">
-        <input type="text" name="lastname" class="form-control">
+        <input type="text" name="lastname">
     </div>
     <div data-live-validator="email" data-live-validator-rules="email">
-        <input type="text" name="email" class="form-control">
+        <input type="text" name="email">
     </div>
 </form>
 ```
