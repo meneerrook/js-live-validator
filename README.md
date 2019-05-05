@@ -5,7 +5,7 @@
 ### Data attributes
 This plugin requires you to add data attributes to your form and some data attributes require specific values,
 These are the data attributes:
-- "data-live-validator-form" - this attribute is added to the <form> element, this attribute allows you to have multiple forms on one page with the plugin active. The value can be anything you want but should be unique.
+- "data-live-validator-form" - this attribute is added to the form element, it allows you to have multiple forms on one page with the plugin active. The value can be anything you want but should be unique.
 - "data-live-validator" - This attribute must be added to the wrapper of a field. The value must be the same as the 'name' attribute of the child field.
 - "data-live-validator-rules" - This attribute must also be added to the wrapper of a field, the value of this wrapper contains all the specific rules that apply to the child-field. Below an example and a list of all the rules.
 
